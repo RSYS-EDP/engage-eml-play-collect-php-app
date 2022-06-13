@@ -1,4 +1,4 @@
-# engage-rest-api-play-collect-sample-php
+# engage-eml-play-collect-php-app
 This application demonstrates sample play-collect server application using an API call and Engage markup language (EML). It also showcases the statuscallback events to the server application.
 
 
