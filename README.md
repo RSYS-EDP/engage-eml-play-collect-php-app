@@ -66,7 +66,6 @@ For windows system, follow the below steps
 </p>
 
 Note:<br>
-Note:
 Modify "$myUrl" in gather_dtmf.php with your public NGROK url (ex: https://60bc-27-7-127-107.ngrok.io/)<br>
 </p>
 ------------------
