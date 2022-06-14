@@ -76,7 +76,7 @@ The path referred in sample application can be used with NGROK tunnel URL as ill
 | / (no path specified) | https://60bc-27-7-127-107.ngrok.io/               |
 	
 Note:<br>
-You will have to change the NGROK tunnel URL as per your local setting: Modify gatherAction URL in the index.js i.e. comment out line number 22 and uncomment line number 26. Replace the example ngrok url with your ngrok application tunnel url in line number 26.<br>
+You will have to change the NGROK tunnel URL as per your local setting: Modify gatherAction URL in the gather_dtmf.php. Replace the example ngrok url with your ngrok application tunnel url in line number 15 of gather_dtmf.php.<br>
 </p>
 ------------------
 
