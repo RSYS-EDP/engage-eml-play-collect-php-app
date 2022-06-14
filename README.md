@@ -24,7 +24,7 @@ $ cd myapp <br>
 Note: <br>
 <ul>
 <li>Make sure 3000 port is free, if 3000 port is used by any other application you can change the port</li>
-<li>index.js contains localhost as ip address. If you have public ip replace localhost with your public ip and jump to section "How to run application". If you don’t know the public ip continue with section "Application behind NAT".</li>
+<li>gather_dtmf.php contains localhost as ip address. If you have public ip replace localhost with your public ip and jump to section "How to run application". If you don’t know the public ip continue with section "Application behind NAT".</li>
 </ul>
 </p>
 
@@ -95,7 +95,7 @@ Perform the following steps to make a call using EDP.
 To make a call using the EDP, execute the server application with the following command.
 
 -----------------
-curl -k -XPOST https://<<base URL>>/api/v1/accounts/{AccID}/call \
+curl -k -XPOST https://apigateway.engagedigital.ai/api/v1/accounts/{AccID}/call \
 --header 'apikey: <<Your API Key>>' \
 --header 'Content-Type: application/json' \
 --d '{
@@ -117,7 +117,7 @@ NOTE:
 <li>Replace YOUR_PUBLIC_IP with the IP address of your server. If you are using the application behind NAT (NGROK), the ‘Url’ and ‘StatusCallback’ parameters are mentioned as below.</li>
 </ul>
 ------------------
-curl -k -XPOST https://<<base URL>>/api/v1/accounts/{AccID}/call \
+curl -k -XPOST https://apigateway.engagedigital.ai/api/v1/accounts/{AccID}/call \
 --header 'apikey: <<Your API Key>>' \
 --header 'Content-Type: application/json' \
 --d '{
