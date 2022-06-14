@@ -117,6 +117,8 @@ NOTE:
 <li>Replace YOUR_PUBLIC_IP with the IP address of your server. If you are using the application behind NAT (NGROK), the ‘Url’ and ‘StatusCallback’ parameters are mentioned as below.</li>
 </ul>
 ------------------
+	
+
 curl -k -XPOST https://apigateway.engagedigital.ai/api/v1/accounts/{AccID}/call \
 --header 'apikey: <<Your API Key>>' \
 --header 'Content-Type: application/json' \
