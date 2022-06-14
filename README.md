@@ -65,11 +65,6 @@ For windows system, follow the below steps
 </ul>
 </p>
 
-<p>
-The path referred in sample application can be used with NGROK tunnel URL as illustrated below. Only https example is listed below but you can use http also likewise.<br>
-
-
-	
 Note:<br>
 Note:
 Modify "$myUrl" in gather_dtmf.php with your public NGROK url (ex: https://60bc-27-7-127-107.ngrok.io/)<br>
