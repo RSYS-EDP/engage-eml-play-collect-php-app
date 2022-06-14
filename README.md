@@ -89,7 +89,7 @@ $ php -S <YOUR_PUBLIC_IP>:3000 gather_dtmf.php
 ------------------
 	
 ### Making a Call
-The following example shows a SIP URI in the "To:" number, which is used for the SIP or WebRTC endpoints. The "To:" number can also be a PSTN number where the "To:" number can be set to “8080808080”.
+The following example shows a SIP URI in the "To:" parameter, which is used for the SIP or WebRTC endpoints. The "To:" can also be any PSTN number.
 
 Perform the following steps to make a call using EDP.
 To make a call using the EDP, execute the server application with the following command.
